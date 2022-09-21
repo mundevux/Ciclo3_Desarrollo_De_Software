@@ -1021,6 +1021,26 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.focus\:border-\[\#F48B0C\]:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(244 139 12 / var(--tw-border-opacity));
+}
+
+.focus\:border-orange-400:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(251 146 60 / var(--tw-border-opacity));
+}
+
+.focus\:ring-\[\#F48B0C\]:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(244 139 12 / var(--tw-ring-opacity));
+}
+
+.focus\:ring-orange-400:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(251 146 60 / var(--tw-ring-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:mb-10 {
     margin-bottom: 2.5rem;
