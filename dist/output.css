@@ -604,6 +604,16 @@ video {
   margin-right: 1.25rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mb-16 {
   margin-bottom: 4rem;
 }
@@ -640,6 +650,14 @@ video {
   margin-bottom: 3rem;
 }
 
+.-mt-10 {
+  margin-top: -2.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -654,6 +672,10 @@ video {
 
 .h-auto {
   height: auto;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-auto {
@@ -690,6 +712,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-items-center {
+  justify-items: center;
 }
 
 .rounded-lg {
@@ -739,6 +765,10 @@ video {
   padding: 0.75rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -752,6 +782,21 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pb-16 {
@@ -790,6 +835,11 @@ video {
   line-height: 2rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -798,9 +848,18 @@ video {
   font-weight: 600;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .text-\[\#EEE9E6\] {
   --tw-text-opacity: 1;
   color: rgb(238 233 230 / var(--tw-text-opacity));
+}
+
+.text-\[\#F48B0C\] {
+  --tw-text-opacity: 1;
+  color: rgb(244 139 12 / var(--tw-text-opacity));
 }
 
 .blur-sm {
@@ -828,6 +887,11 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.hover\:text-\[\#F48B0C\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(244 139 12 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -835,6 +899,14 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .md\:mt-60 {
+    margin-top: 15rem;
+  }
+
   .md\:w-3\/4 {
     width: 75%;
   }

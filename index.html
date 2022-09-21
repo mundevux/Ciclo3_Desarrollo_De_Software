@@ -10,31 +10,42 @@
   <title>Concha y Toro: Login</title>
   <link rel="stylesheet" href="./dist/output.css">
 </head>
-<body class="font-[Manrope]">
-  <div class="container m-auto h-screen grid grid-cols-1 sm:grid-cols-2 items-center">
-    <div class="h-auto mx-4 mt-5">
-      <h1 class="text-5xl font-bold mb-16 ">Concha y Toro</h1>
-      <div class="flex flex-col w-3/4 mx-auto">
-        <h2 class="text-4xl font-bold text-center mb-4">¡Bienvenido!</h2>
-        <p class="text-center mb-12">Por favor ingresa tus credenciales</p>
-        <form action="" class="w-full md:w-3/4 mx-auto mb-5">
-          <div class="flex flex-col mb-5">
-            <label for="email" class="pb-1">Email</label>
-            <input type="email" name="email" id="email" placeholder="ejemplo@ejemplo.com" class="bg-[#EEE9E6] px-2 py-1 rounded-md">
-          </div>
-          <div class="flex flex-col mb-10">
-            <label for="password" class="pb-1">Contraseña</label>
-            <input type="password" name="password" id="password" placeholder="********" class="bg-[#EEE9E6] px-2 py-1 rounded-md">
-          </div>
-          <div class=" w-full mt-5">
-            <button type="submit" class="bg-[#F48B0C] text-[#EEE9E6] font-semibold w-full py-1 rounded-md">Ingresar</button>
-          </div>
-        </form>
+<body class="font-[Manrope] ">
+  <div class="container mx-auto h-screen flex flex-col items-center justify-center">
+    <div class="container mx-auto py-10 grid grid-cols-1 sm:grid-cols-2 items-center justify-center">
+      <div class="h-auto mx-4 mt-5">
+        <h1 class="text-5xl font-bold mb-16 ">Concha y Toro</h1>
+        <div class="flex flex-col w-3/4 mx-auto">
+          <h2 class="text-4xl font-bold text-center mb-4">¡Bienvenido!</h2>
+          <p class="text-center mb-12">Por favor ingresa tus credenciales</p>
+          <form action="" class="w-full md:w-3/4 mx-auto mb-5">
+            <div class="flex flex-col mb-5">
+              <label for="email" class="pb-1">Email</label>
+              <input type="email" name="email" id="email" placeholder="ejemplo@ejemplo.com" class="bg-[#EEE9E6] px-2 py-1 rounded-md">
+            </div>
+            <div class="flex flex-col mb-10">
+              <label for="password" class="pb-1">Contraseña</label>
+              <input type="password" name="password" id="password" placeholder="********" class="bg-[#EEE9E6] px-2 py-1 rounded-md">
+            </div>
+            <div class=" w-full mt-5">
+              <button type="submit" class="bg-[#F48B0C] text-[#EEE9E6] font-semibold w-full py-1 rounded-md">Ingresar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="rounded-md blur-[2px] mx-5">
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Imagen de Login">
       </div>
     </div>
-    <div class="rounded-md blur-[2px] mx-5">
-      <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Imagen de Login">
+    <div class="bg-[#EEE9E6] mt-10 flex flex-col items-center p-5 rounded-md">
+      <h1 class="text-xl font-medium mb-3">Vistas</h1>
+      <div>
+        <a href="./src/SuperAdmin.html" class="mx-2 hover:text-[#F48B0C]">Super Administrador</a>
+        <a href="./src/Admin.html" class="mx-2 hover:text-[#F48B0C]">Administrador</a>
+        <a href="./src/FinalUser.html" class="mx-2 hover:text-[#F48B0C]">Usuario Final</a>
+      </div>
     </div>
+  
   </div>
 </body>
 </html>
